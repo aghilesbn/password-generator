@@ -1,7 +1,7 @@
 # Password Generator Project
 
 ## Demo Video
-- [Link to the video on YouTube](your_video_link_here)
+- https://www.youtube.com/watch?v=EMaBDZeH6NA
 
 ## Created by
 - **Name**: HADBI AGHILES
