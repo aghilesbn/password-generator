@@ -1,12 +1,20 @@
 # Password Generator Project
 
-#### Demo Video: [Link to the video on YouTube](your_video_link_here)
-#### Created by: HADBI AGHILES
-#### GitHub: [aghilesbn](https://github.com/aghilesbn)
+## Demo Video
+- [Link to the video on YouTube](your_video_link_here)
 
-#### edX: hadbiaghiles
-#### Country: Tizi Ouzou, Algeria
-#### Date of video recording: June 25, 2024
+## Created by
+- **Name**: HADBI AGHILES
+- **GitHub**: [aghilesbn](https://github.com/aghilesbn)
+
+## edX
+- hadbiaghiles
+
+## Country
+- Tizi Ouzou, Algeria
+
+## Date of video recording
+- June 25, 2024
 
 ## Description
 This project implements a robust password generator in Python. In today's digital age, where cybersecurity is paramount, having strong, unique passwords is crucial to protect sensitive information. The password generator in this project leverages Python's capabilities to create passwords that combine alphanumeric characters and special symbols, ensuring they are both secure and complex enough to resist common hacking attempts.
@@ -15,8 +23,16 @@ This project implements a robust password generator in Python. In today's digita
 To run this password generator on your local machine, follow these steps:
 
 1. **Clone the Repository**: Start by cloning this repository to your local environment using Git:
-2. **Install Dependencies**: Navigate to the project directory and install the required dependencies listed in `requirements.txt`
-3. **Run the Program**: Execute the main Python script to generate a password
+   ```bash
+   git clone https://github.com/aghilesbn/password-generator.git
+ 
+2. Install Dependencies: Navigate to the project directory and install the required dependencies listed in requirements.txt:
+    cd password-generator
+    pip install -r requirements.txt
+3. Run the Program: Execute the main Python script to generate a password:
+   python project.py
+Project Structure
+This project is structured as follows:
 
 
 ## Project Structure
@@ -53,3 +69,4 @@ Future versions of the password generator project could include the following en
 In conclusion, the password generator project exemplifies the application of fundamental Python programming concepts to address real-world security challenges. By developing and enhancing this project, I have gained valuable insights into cryptography, software design, and testing methodologies. I am committed to further improving this project and contributing to the cybersecurity community.
 
 Thank you for reviewing this project, and I welcome any feedback or suggestions for its continued improvement.
+....................................................................................................................................................................
