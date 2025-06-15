@@ -1,16 +1,24 @@
 import pytest
-from project import generate_password, password_strength, additional_function
+from project import generate_password, password_starting_with, password_ending_with
 
 def test_generate_password():
-    password = generate_password(12)
-    assert len(password) == 12
+    """Test case for generate_password function."""
+    length = 12
+    password = generate_password(length)
+    assert len(password) == length
 
-def test_password_strength():
-    strength = password_strength("TestPassword123!")
-    assert strength == "Strong"  # À ajuster selon la logique implémentée
+def test_password_starting_with():
+    """Test case for password_starting_with function."""
+    start_word = "Start"
+    length = 12
+    password = password_starting_with(start_word, length)
+    assert password.startswith(start_word)
+    assert len(password) == length
 
-def test_additional_function():
-    result = additional_function()
-    assert result is not None
-
-# Autres tests pour les fonctions supplémentaires si nécessaire
+def test_password_ending_with():
+    """Test case for password_ending_with function."""
+    end_word = "End"
+    length = 12
+    password = password_ending_with(end_word, length)
+    assert password.endswith(end_word)
+    assert len(password) == length
