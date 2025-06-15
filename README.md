@@ -25,7 +25,7 @@ To run this password generator on your local machine, follow these steps:
 1. **Clone the Repository**: Start by cloning this repository to your local environment using Git:
    ```bash
    git clone https://github.com/aghilesbn/password-generator.git
- 
+
 2. Install Dependencies: Navigate to the project directory and install the required dependencies listed in requirements.txt:
     cd password-generator
     pip install -r requirements.txt
